@@ -1,0 +1,12 @@
+create table copa_do_mundo (
+id bigint generated always as identity not null,
+seleção text not null,
+valor_de_mercado int,
+ranking_fifa int,
+artilheiro text,
+grupo_da_copa varchar (1)
+);
+
+--Chave Primaria: Identificador único de uma tabela. Essa informação não pode se repetir em nenhum momento--
+--Chave Estrangeira: A chave primaria que é referenciada em outra tabela--
+--Varchar: é um limitador de quantidade de caracteres. Dentro do parenteses é o valor que define o limmite--
